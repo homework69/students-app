@@ -1,5 +1,5 @@
 <script setup>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from "./components/AppHeader.vue";
 </script>
 
 <template>
@@ -8,6 +8,5 @@ import AppHeader from './components/AppHeader.vue'
     <main class="main-content">
       <RouterView />
     </main>
-    <footer class="app-footer">Панель управления учениками <span>·</span> Vue 3</footer>
   </div>
 </template>

@@ -44,9 +44,7 @@ function confirmDelete() {
 <template>
   <section class="page-heading">
     <div>
-      <div class="eyebrow">УПРАВЛЕНИЕ УЧЕНИКАМИ</div>
-      <h1>{{ pageTitle }}</h1>
-      <p>{{ pageDescription }}</p>
+      <h1 style="color:white;">{{ pageTitle }}</h1>
     </div>
     <button class="btn btn-primary add-button" type="button" @click="openAddForm">
       <span class="plus">＋</span> Добавить ученика

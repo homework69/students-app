@@ -12,7 +12,7 @@ const emptyForm = () => ({
   lastName: '',
   description: '',
   rating: 3,
-  time: '17:00',
+  time: '18:00',
 })
 const form = reactive(emptyForm())
 
@@ -60,8 +60,8 @@ function submitForm() {
       <label class="field">
         <span>Время занятия <b>*</b></span>
         <select v-model="form.time" required>
-          <option value="17:00">17:00</option>
           <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
           <option value="20:00">20:00</option>
         </select>
       </label>

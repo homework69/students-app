@@ -4,8 +4,8 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const links = [
   { label: 'Все ученики', to: '/', icon: '▦' },
-  { label: '17:00', to: '/time/17-00', icon: '◷' },
   { label: '18:00', to: '/time/18-00', icon: '◷' },
+  { label: '19:00', to: '/time/19-00', icon: '◷' },
   { label: '20:00', to: '/time/20-00', icon: '◷' },
 ]
 </script>
